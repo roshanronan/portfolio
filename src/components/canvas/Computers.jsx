@@ -1,32 +1,19 @@
-import { Suspense, useEffect,useState } from "react"
+import { Suspense, useContext } from "react"
 import { Canvas } from "@react-three/fiber"
 import { OrbitControls,Preload,useGLTF } from "@react-three/drei"
 import CanvasLoader from '../Loader'
 import { coolBoy } from "../../assets"
+import { MobileContext } from "../../App"
 
 
 
 
 const ComputersCanvas = ()=>{
 
-  const [isMobile,setIsMobile] =  useState(false);
-  
-  
-  useEffect(()=>{
-    const mediaQuery = window.matchMedia("(max-width: 500px)");
-    setIsMobile(mediaQuery.matches)
-    const handleMediaQueryChanges = (event)=>{
-      setIsMobile(event.matches)
-    }
-    mediaQuery.addEventListener('change',handleMediaQueryChanges)
-
-    return()=>{
-      mediaQuery.removeEventListener('change',handleMediaQueryChanges)
-    }
-  },[])
+  const isMobile = useContext(MobileContext)
 
  return ( isMobile ?<div className="absolute top-[35%] -left-[3%] w-full flex
- justify-center items-center"><img className="shadow-white drop-shadow-2xl" src={coolBoy}/></div>: 
+ justify-center items-center"><img src={coolBoy}/></div>: 
   <Canvas
   frameloop="demand"
   shadows

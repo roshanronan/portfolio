@@ -31,7 +31,12 @@ import {
     vpt,
     PaidSearchMonitoring,
     WebContentMonitoring,
-    live
+    live,
+    firebase,
+    puppeteer,
+    mysql,
+    question
+
   } from "../assets";
   
   export const navLinks = [
@@ -42,6 +47,10 @@ import {
     {
       id: "work",
       title: "Work",
+    },
+    {
+      id:'tech',
+      title:'Tech'
     },
     {
       id: "contact",
@@ -55,7 +64,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "React Developer",
       icon: mobile,
     },
     {
@@ -63,7 +72,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "React Native Developer",
       icon: creator,
     },
   ];
@@ -114,12 +123,12 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "firebase",
+      icon: firebase,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "mysql",
+      icon: mysql,
     },
   ];
   
@@ -150,6 +159,20 @@ import {
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Developed and maintained two automaion product for content monitoring and web scraping.",
         "Involded in code testing and deploying better code."
+      ],
+    },
+    {
+      title: "React Js Developer/Full Stack(MERN)",
+      company_name: "------------",
+      icon: question,
+      iconBg: "#383E56",
+      date: "Now - Future",
+      points: [
+        "Experties in React Js and similar technologies for developing web application.",
+        "Having 4 + year of experience in SDLC and STLC for devloping, testing and maintaing application.",
+        "Currently learning React Three fiber for 3d modeling in React.",
+        "Looking for new oppertunity where i can use my knowledge and gain some new."
+
       ],
     }
   ];

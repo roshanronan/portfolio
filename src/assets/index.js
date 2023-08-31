@@ -20,6 +20,10 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import mysql from "./tech/mysql.png";
+import firebase from "./tech/firebase.png";
+import puppeteer from "./tech/puppeteer.png";
+
 
 import live from './live.png';
 
@@ -28,7 +32,8 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import vpt from "./company/vpt.png";
-import coforge  from './company/coforge.png'
+import coforge  from './company/coforge.png';
+import question from './company/question.png'
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -81,5 +86,9 @@ export {
   PaidSearchMonitoring,
   WebContentMonitoring,
   live,
-  coolBoy
+  coolBoy,
+  mysql,
+  puppeteer,
+  firebase,
+  question
 };
