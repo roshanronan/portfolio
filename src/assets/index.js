@@ -41,6 +41,7 @@ import linkedin from './linkedin.svg';
 import githubFooter from './github.svg';
 import instagram from './instagram.svg';
 
+import coolBoy from './coolBoy.png'
 
 export {
   logo,
@@ -79,5 +80,6 @@ export {
   githubFooter,
   PaidSearchMonitoring,
   WebContentMonitoring,
-  live
+  live,
+  coolBoy
 };
