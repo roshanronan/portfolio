@@ -45,8 +45,8 @@ const About = () => {
       max-w-3xl leading-[30px]'
       >
         I am a skilled software developer with Experience
-        in Javascript and Typescript and expertise in 
-        frameworks like React, Node.js and Angular. I am
+        in HTML5, CSS3, Javascript,Node.js and Typescript and expertise in 
+        frameworks like React, Express and Angular. I am
         a quick learner and collaborate closely with clients
         to create efficient,scalable and user-friendly solutions
         that solve real-world problems. Let's work together

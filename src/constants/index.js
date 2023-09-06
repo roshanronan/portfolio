@@ -134,17 +134,17 @@ import {
   
   const experiences = [
     {
-      title: "Software Engineer",
-      company_name: "Coforge formerly NIIT",
-      icon: coforge,
-      iconBg: "#E6DEDD",
-      date: "Jan 2019 - Jun 2020",
+      title: "React Js Developer/Full Stack(MERN)",
+      company_name: "------------",
+      icon: question,
+      iconBg: "#383E56",
+      date: "Looking for Opportunity",
       points: [
-        "Learn latest technology and tool about web and web automaton.",
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Experties in React Js and similar technologies for developing web application.",
+        "Having 4 + year of experience in SDLC and STLC for devloping, testing and maintaing application.",
+        "Currently learning React Three fiber for 3d modeling in React.",
+        "Looking for new oppertunity where i can use my knowledge and gain some new."
+
       ],
     },
     {
@@ -162,19 +162,19 @@ import {
       ],
     },
     {
-      title: "React Js Developer/Full Stack(MERN)",
-      company_name: "------------",
-      icon: question,
-      iconBg: "#383E56",
-      date: "Now - Future",
+      title: "Software Engineer",
+      company_name: "Coforge formerly NIIT",
+      icon: coforge,
+      iconBg: "#E6DEDD",
+      date: "Jan 2019 - Jun 2020",
       points: [
-        "Experties in React Js and similar technologies for developing web application.",
-        "Having 4 + year of experience in SDLC and STLC for devloping, testing and maintaing application.",
-        "Currently learning React Three fiber for 3d modeling in React.",
-        "Looking for new oppertunity where i can use my knowledge and gain some new."
-
+        "Learn latest technology and tool about web and web automaton.",
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
       ],
-    }
+    },
   ];
   
   const testimonials = [
