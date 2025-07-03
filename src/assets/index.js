@@ -27,17 +27,10 @@ import puppeteer from "./tech/puppeteer.png";
 
 import live from './live.png';
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 import vpt from "./company/vpt.png";
 import coforge  from './company/coforge.png';
 import question from './company/question.png'
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import PaidSearchMonitoring from "./PaidSearchMonitoring.png";
 import WebContentMonitoring from "./WebContentMonitoring.png";
 
@@ -70,13 +63,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
   vpt,
   coforge,
   facebook,

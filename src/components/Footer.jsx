@@ -19,7 +19,7 @@ const SocialCard =({logo,link,name})=>{
 
 const Footer =()=>{
     return(
-        <div className='green-pink-gradient shodow-card mx-10 p-[1px] rounded-t-xl '>
+        <div className='green-pink-gradient shodow-card xl:mx-10 mx-5 p-[1px] rounded-t-xl '>
 <div className='flex flex-col bg-black rounded-t-xl
  w-full justify-center items-center '>
     <p className="mt-8 text-lg font-bold text-violet-700"> More about me ✨🐱‍🏍 </p>
@@ -35,7 +35,7 @@ const Footer =()=>{
 
         </div>
 
-        <div className='pb-8'>Made with <span className='animate-pulse'>🧠</span> and <span className='animate-ping'>🧡</span> by Roshan</div>
+        <div className='pb-8'>Made with <span className='animate-pulse'>🧠</span> and <span className='animate-ping'>🧡</span> by Roshan Singh</div>
 </div>
 </div>
     )

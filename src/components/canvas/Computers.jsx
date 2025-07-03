@@ -15,6 +15,7 @@ const ComputersCanvas = ()=>{
  return ( isMobile ?<div className="absolute top-[35%] -left-[3%] w-full flex
  justify-center items-center"><img src={coolBoy}/></div>: 
   <Canvas
+   className="w-full h-screen z-[10]"
   frameloop="demand"
   shadows
   camera={{position:[20,3,5],fov:25}}
@@ -23,6 +24,8 @@ const ComputersCanvas = ()=>{
     <Suspense fallback={<CanvasLoader/>}>
       <OrbitControls
       enableZoom={false}
+      enableRotate={true}
+      autoRotate ={true}     
       maxPolarAngle={Math.PI/2}
       minPolarAngle={Math.PI/2}
       />
